@@ -1,0 +1,16 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~@fontsource/montserrat/index.css';
+@import '~@fontsource/montserrat/700.css';
+@import './vars.scss';
+@import './utilities.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: $font;
+  color: darken($primary-color, 40%);
+}
